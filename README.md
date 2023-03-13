@@ -1,4 +1,4 @@
-# Data Portfolio
+# Welcome to Lan Hoang's data portfolio!
 
 This repository is a portfolio of personal data-related projects I have completeted in the following areas:
 - Data visualization - using Tableau
