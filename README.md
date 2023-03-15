@@ -1,8 +1,10 @@
-# Welcome to Lan Hoang's data portfolio!
+# Welcome to my data portfolio!
 
 This repository is a portfolio of personal data-related projects I have completeted in the following areas:
 - Data analysis - using SQL and Python
 - Data visualization - using Tableau
+
+This portfolio is still a work in progress, so more projects will be coming soon as I expand/deepen my skillset :)
 
 ## I. Data analysis - using SQL
 
