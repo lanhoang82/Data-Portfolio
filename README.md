@@ -3,6 +3,7 @@
 This repository is a portfolio of personal data-related projects I have completeted in the following areas:
 - Data analysis - using SQL and Python
 - Data visualization - using Tableau
+- Machine Learning - Classification Prediction using Python
 
 This portfolio is still a work in progress, so more projects will be coming soon as I expand/deepen my skillset :)
 
@@ -39,3 +40,6 @@ Marketing Budget Tracking dashboards for leadership (with toy data). These dashb
 
 <div class='tableauPlaceholder' id='viz1678708785019' style='position: relative'><noscript><a href='#'><img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MarketingBudgetTracking_ManagementReporting_withToyData&#47;Summary&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='MarketingBudgetTracking_ManagementReporting_withToyData&#47;Summary' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ma&#47;MarketingBudgetTracking_ManagementReporting_withToyData&#47;Summary&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>               
 
+### 3. Machine Learning - Classification Prediction of Household Income
+
+This project involved data cleaning, analysis with Pandas and data visualization using Matplotlib on 0.5 million records of US Census Bureau in 2020-2021. Predicted income level (high or low) of a household based on demographic predictors, using different classification methods in Scikit-learn such as Logistic Regression, Random Forest, Bagging, etc. and gained an accuracy of 0.85.
