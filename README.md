@@ -10,7 +10,7 @@ This portfolio is still a work in progress, so more projects will be coming soon
 
 ### 1. Insights from ESG Indicators - A SQL Project (Version 1)
 
-This SQL project aims to put in practice and demonstrate my SQL skills, through obtaining insights from ESG (Environment/Social/Governance) indicators. These insights are intended to help shareholders and investors better understand how these ESG indicators evolve over time and compare companies in the same sector for benchmarking.
+Situated in a Jupyter notebook in the SQL/ESG folder above, this SQL project aims to put in practice and demonstrate my ability to write SQL queries. This is done through obtaining insights from ESG (Environment/Social/Governance) indicators. These insights are intended to help shareholders and investors better understand how these ESG indicators evolve over time and compare companies in the same sector for benchmarking.
 
 The project uses a dummy data set obtained from Tableau Exchange at the following link: https://exchange.tableau.com/fr-FR/products/625. The SQL queries, hosted on SQLite, would help answer the following key business questions:
 
@@ -19,6 +19,8 @@ The project uses a dummy data set obtained from Tableau Exchange at the followin
 - How many companies have at least one social policy?
 - What is the percentage of women on the board of directors?
 - How is my company performing compared to companies in the same industry?
+
+Envisioned enhancements to this project includes potential joining of additional tables and migration to PostgreSQL database for a more agile data pivoting ability.
 
 ## II. Data visualization - using Tableau
 Link to my [Tableau Public profile](https://public.tableau.com/app/profile/lan.hoang6504).
