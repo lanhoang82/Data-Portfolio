@@ -1,7 +1,7 @@
 /* 1. Basic SELECT statement*/
 
 /*Retrieve all the names (first_name, last_name) of employees using an alias name "First Name", "Last Name"*/
-SELECT FIRST_NAME "FIRST NAME", LAST_NAME "LAST NAME" FROM employees;
+SELECT first_name "First Name", last_name "Last Name" FROM employees;
 
 /*Get unique department ID from employee table */
 SELECT DISTINCT department_id FROM employees;
@@ -50,6 +50,7 @@ INNER JOIN locations ON locations.location_id = departments.location_id
 GROUP BY department_name
 ORDER BY "Number of Employees" DESC;
 
+/* 3. Sub-queries*/
 /**/
 
 
