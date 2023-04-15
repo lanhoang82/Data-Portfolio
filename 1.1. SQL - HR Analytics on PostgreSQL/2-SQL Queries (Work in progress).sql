@@ -120,4 +120,12 @@ WHERE manager_id IN (
 	LEFT JOIN locations AS l ON d.location_id = l.location_id
 	LEFT JOIN countries AS co ON co.country_id = l.country_id
 	WHERE country_name = 'United States of America');
-	
+
+/* 5. Window Functions*/
+
+/*Find the first_name and last_name of the employees, their salary and the average salary 
+of their job family*/
+SELECT first_name, last_name, job_title, ROUND(salary, 0) AS salary,
+	ROUND(AVG(salary) OVER(PARTITION BY job_title), 0) AS avg_sal_job_fam
+FROM employees AS e
+INNER JOIN jobs AS j ON e.job_id = j.job_id;
