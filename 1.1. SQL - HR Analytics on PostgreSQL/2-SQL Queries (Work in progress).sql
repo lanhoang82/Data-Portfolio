@@ -120,6 +120,22 @@ WHERE manager_id IN (
 	LEFT JOIN locations AS l ON d.location_id = l.location_id
 	LEFT JOIN countries AS co ON co.country_id = l.country_id
 	WHERE country_name = 'United States of America');
+	
+/*Find the first_name, last_name and salary, which is equal to the minimum salary for this post
+he/she is working on.*/
+
+SELECT first_name, last_name, salary
+FROM employees AS e
+INNER JOIN jobs AS j 
+	ON e.job_id = j.job_id
+WHERE salary = min_salary; -- first option without subquery
+
+SELECT first_name, last_name, salary
+FROM employees AS e
+WHERE salary = (
+	SELECT min_salary
+	FROM jobs AS j
+	WHERE e.job_id = j.job_id); --correlated subquery
 
 /* 5. Window Functions*/
 
