@@ -9,7 +9,18 @@ This portfolio is still a work in progress, so more projects will be coming soon
 
 ## I. Data analysis - using SQL
 
-### 1. Insights from ESG Indicators - A SQL Project
+### 1. HR Analytics - A more advanced SQL Project 
+
+With a database of 7 tables hosted on PostgreSQL, this SQL project aims to showcase my ability to write more advanced SQL queries. Via pgAdmin 4, I write queries with common types of joins, subqueries, common table expressions (CTEs) and window functions. A toy HR analytics database was employed to practice providing relevant insights and help management to answer questions that would inform personnel and compensation policies, such as:
+
+- How many employees in the company have earn more than the average salary of their respective deparment?
+- What is the geographical distribution of the employees in the company (by city, country or region)? 
+- What is the salary range of the employees in the IT department?
+- Who is the employee who has been with the company the longest? Who is the most recently joined employee?
+
+This project is ongoing as I practice and improve my SQL skills. New queries uncovering new aspects of the database will continue to be added.
+
+### 1.1. Insights from ESG Indicators - A SQL Project
 
 Situated in a Jupyter notebook in the SQL/ESG folder above, this SQL project aims to put in practice and demonstrate my ability to write basic SQL queries. This is done through obtaining insights from ESG (Environment/Social/Governance) indicators. These insights are intended to help shareholders and investors better understand how these ESG indicators evolve over time and compare companies in the same sector for benchmarking.
 
@@ -20,17 +31,6 @@ The project uses a dummy data set obtained from Tableau Exchange at the followin
 - How many companies have at least one social policy?
 - What is the percentage of women on the board of directors?
 - How is my company performing compared to companies in the same industry?
-
-### 1.1. HR Analytics - A more advanced SQL Project 
-
-With a database of 7 tables hosted on PostgreSQL, this SQL project aims to showcase my ability to write more advanced SQL queries. Via pgAdmin 4, I write queries with common types of joins, subqueries, common table expressions (CTEs) and window functions. A toy HR analytics database was employed to practice providing relevant insights and help management to answer questions that would inform personnel and compensation policies, such as:
-
-- How many employees in the company have earn more than the average salary of their respective deparment?
-- What is the geographical distribution of the employees in the company (by city, country or region)? 
-- What is the salary range of the employees in the IT department?
-- Who is the employee who has been with the company the longest? Who is the most recently joined employee?
-
-This project is ongoing as I practice and improve my SQL skills. New queries uncovering new aspects of the database will continue to be added.
 
 ## II. Data visualization - using Tableau
 Link to my [Tableau Public profile](https://public.tableau.com/app/profile/lan.hoang6504). This profile is of course a work in progress and new visualizations will be added when timing allows :)
