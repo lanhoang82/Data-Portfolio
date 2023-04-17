@@ -23,7 +23,7 @@ The project uses a dummy data set obtained from Tableau Exchange at the followin
 
 ### 1.1. HR Analytics - A more advanced SQL Project 
 
-With a database of 7 tables hosted on PostgreSQL, this SQL project aims to showcase my ability to write more advanced SQL queries. These includes queries with the common joins, subqueries, common table expressions (CTEs) and window functions. The HR analytics database was employed to provide relevant insights and help management to answer questions that would inform compensation policies, such as:
+With a database of 7 tables hosted on PostgreSQL, this SQL project aims to showcase my ability to write more advanced SQL queries. Via pgAdmin 4, I write queries with common types of joins, subqueries, common table expressions (CTEs) and window functions. A toy HR analytics database was employed to practice providing relevant insights and help management to answer questions that would inform personnel and compensation policies, such as:
 
 - How many employees in the company have earn more than the average salary of their respective deparment?
 - What is the geographical distribution of the employees in the company (by city, country or region)? 
