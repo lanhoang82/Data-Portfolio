@@ -145,3 +145,17 @@ SELECT first_name, last_name, job_title, ROUND(salary, 0) AS salary,
 	ROUND(AVG(salary) OVER(PARTITION BY job_title), 0) AS avg_sal_job_fam
 FROM employees AS e
 INNER JOIN jobs AS j ON e.job_id = j.job_id;
+
+/* 6. Date queries*/
+
+/*Get the first name and last name of the employees who has been with the company the longest
+assuming everyone in the database are all current employees*/
+SELECT first_name, last_name, hire_date, 
+	DATE_PART('year', CURRENT_DATE) - DATE_PART('year', hire_date) "employment_duration"
+FROM employees AS e
+ORDER BY employment_duration DESC;
+
+/**/
+
+
+/**/
