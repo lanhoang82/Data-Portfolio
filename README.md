@@ -1,6 +1,6 @@
 # Welcome to my data portfolio!
 
-This repository is a portfolio of personal data-related projects I have completeted in the following areas:
+This repository is a portfolio of selected personal data-related projects I have completeted in the following areas:
 - Data analysis - using SQL and Python
 - Data visualization - using Tableau
 - Machine Learning - Classification Prediction using Python
@@ -8,6 +8,8 @@ This repository is a portfolio of personal data-related projects I have complete
 This portfolio is still a work in progress, so more projects will be coming soon as I expand/deepen my skillset :)
 
 ## I. Data analysis - using SQL
+
+Apart from the SQL projects below, I'm currently taking up an 8-week SQL challenge. You can check out my progress at my other GitHub repository **[here](https://github.com/lanhoang82/8-Week-SQL-Challenge)**.
 
 ### 1. HR Analytics - A more advanced SQL Project 
 
