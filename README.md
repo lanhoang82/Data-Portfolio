@@ -9,7 +9,7 @@ This portfolio is still a work in progress, so more projects will be coming soon
 
 ## I. Data analysis - using SQL
 
-Apart from the SQL projects below, I'm currently taking up an 8-week SQL challenge. You can check out my progress at my other GitHub repository **[here](https://github.com/lanhoang82/8-Week-SQL-Challenge)**.
+Apart from the SQL projects below, I'm currently taking up an [8-week SQL challenge](https://8weeksqlchallenge.com/). You can check out my progress at my other GitHub repository **[here](https://github.com/lanhoang82/8-Week-SQL-Challenge)**.
 
 ### 1. HR Analytics - A more advanced SQL Project 
 
