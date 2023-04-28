@@ -4,4 +4,4 @@ My portfolio went through a major site upgrade on 28 April 2023, for greater eas
 
 Everything can now be found at: **https://lanhoang82.github.io/LanHoang.github.io/**
 
-Thank you for your understanding and happy browsing! :)
+Thanks for your understanding and happy browsing! :)
